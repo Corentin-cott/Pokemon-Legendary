@@ -1,0 +1,23 @@
+================================Erreur de script================================
+Message :
+undefined method `battle_boost' for nil:NilClass
+
+Type : NoMethodError
+Script : PSDK//01500 Alpha 24 Battle Engine (deprecated)/01700 BattleEngine/01600 BE_Interpreter.rb (RMXP)
+Ligne : 204
+Date : 14/05/2021 19:43:31
+Game Version : 256
+Logiciel : Pokémon SDK 24.87
+===================================Backtraces===================================
+[10] : PSDK//01500 Alpha 24 Battle Engine (deprecated)/01700 BattleEngine/01600 BE_Interpreter.rb (RMXP) | ligne 204 hp_down
+[9] : PSDK//01500 Alpha 24 Battle Engine (deprecated)/01600 Scene_Battle/00700 Scene_Battle_Message_Display.rb (RMXP) | ligne 22 phase4_message_display
+[8] : PSDK//01500 Alpha 24 Battle Engine (deprecated)/01600 Scene_Battle/01300 Scene_Battle_Phase_4.rb (RMXP) | ligne 333 phase4_attack
+[7] : PSDK//01500 Alpha 24 Battle Engine (deprecated)/01600 Scene_Battle/01300 Scene_Battle_Phase_4.rb (RMXP) | ligne 93 update_phase4
+[6] : PSDK//01500 Alpha 24 Battle Engine (deprecated)/01600 Scene_Battle/00200 Scene_Battle_Core.rb (RMXP) | ligne 371 update
+[5] : PSDK//01500 Alpha 24 Battle Engine (deprecated)/01600 Scene_Battle/00200 Scene_Battle_Core.rb (RMXP) | ligne 116 main
+[4] : PSDK//01500 Alpha 24 Battle Engine (deprecated)/01600 Scene_Battle/00200 Scene_Battle_Core.rb (RMXP) | ligne 113 loop
+[3] : PSDK//01500 Alpha 24 Battle Engine (deprecated)/01600 Scene_Battle/00200 Scene_Battle_Core.rb (RMXP) | ligne 113 main
+[2] : UNKNOWN/Game/Boot.rb (RMXP) | ligne 534 <compiled>
+[1] : UNKNOWN/Game/Boot.rb (RMXP) | ligne 299 rgss_main
+[0] : Game.rb (RMXP) | ligne 17 <main>
+===================================Fin du log===================================
